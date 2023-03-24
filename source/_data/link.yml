@@ -1,10 +1,47 @@
 - class_name: 0.推荐网站🍔
   class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
-  link_list: 
+  link_list:
+    - name: Miraitowa🥑
+      link: https://www.lzx981128.top/
+      avatar: https://gravatar.helingqi.com/wavatar/bcb288ce366ea57d9c752b54929de936?d=mm
+      descr: Future is now 🍭🍭🍭
+      siteshot: https://tuchuang.voooe.cn/images/2023/03/06/link.png
     - name: Fomalhaut🥝
       link: https://www.fomal.cc/
       avatar: https://www.fomal.cc/assets/avatar.webp
       descr: Future is now 🍭🍭🍭
       siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+    - name: Ethan.Tzy
+      link: https://tzy1997.com/
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+      descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+      screenshot: https://bu.dusays.com/2022/06/01/6296ceb2e4935.jpg
+    - name: kwobron
+      link: https://www.acozycotage.net/
+      avatar: https://lskypro.acozycotage.net/LightPicture/2023/01/2d02753ae747ac6e.webp
+      descr: 寄言燕雀莫相唣，自有云霄万里高 🍭🍭🍭
+      siteshot: https://lskypro.acozycotage.net/LightPicture/2023/01/3a5e108c384e5bac.webp
+    - name: 脑阔疼ه٥
+      link: https://naokuoteng.cn/
+      avatar: https://s2.loli.net/2022/12/04/65B3mSlbdsvr4aU.webp
+      descr: 天气转晴 太阳崭新 我在前进
+      siteshot: https://s2.loli.net/2022/12/26/UrkH1Am6Gb9O2iw.webp
+    - name: 安知鱼`Blog
+      link: https://anzhiy.cn/
+      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5
+      descr: 进一寸有进一寸的欢喜。
+      siteshot: https://data-static.netdun.net/Fomalhaut/siteshot/blog.leonus.cn.jpg
+    - name: Eurkon
+      link: https://blog.eurkon.com
+      avatar: https://blog.eurkon.com/images/user/avatar.jpg
+      descr: 及时当勉励，岁月不待人。
+      siteshot: https://data-static.netdun.net/Fomalhaut/siteshot/blog.eurkon.com.jpg
+
+
 
 

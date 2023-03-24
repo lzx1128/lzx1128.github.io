@@ -8,7 +8,7 @@ comments: false
 
 <!-- timeline 2023-2-28-->
 
-1. 主题开源啦
+1. 博客搭建完成啦
 
 <!-- endtimeline -->
 

@@ -2,25 +2,46 @@
 title: 关于
 date: 2022-08-10 16:05:11
 ---
+{% note red 'fas fa-fan' flat %}I wish you to become your own sun , no need to rely on who’s light.
+— 愿你成为自己的太阳，无需凭借谁的光芒。{% endnote %}
 
-{% note warning modern %}<b>非商免字体、网图</b>等资源未经授权仅限个人使用，不得用于商业用途。本站平时仅用于交流和学习，如涉及侵权请联系站长删除对应资源，谢谢！ —— 致版权方{% endnote %}
+## 基本信息
 
-## 0.网站自述视频🎬
+```YAML
+Name: Miraitowa🥑
+Age: 24
+Address: 北京
+Github: https://github.com/Lzx981128
+Blog: https://lzx981128.top/
+```
+## 技术栈
++ 精通使用H5+CSS3对页面进行布局(成功的页面仔)
++ 熟悉使用原生JavaScript、ES6、TS
++ 熟练使用Vue全家桶进行搭建项目
++ 熟悉使用React全家桶进行搭建项目
++ 熟悉小程序,能熟练且合理调用其Api，有相关项目经验
++ 熟悉Webpack、Gulp、Grunt等等打包工具
++ 熟练编写前端标准代码,熟悉浏览器兼容问题解决(IE10以下另当别论)
 
-<div class="about_page">
-  <div align=center class="aspect-ratio">
-      <iframe src="https://player.bilibili.com/player.html?aid=474023258&&page=1&as_wide=1&high_quality=1&danmaku=0" 
-      scrolling="no" 
-      border="0" 
-      frameborder="no" 
-      framespacing="0" 
-      high_quality=1
-      danmaku=1 
-      allowfullscreen="true"> 
-      </iframe>
-  </div>
-</div>
+##  联系博主
+```YAML
+qq: 2735772872
+vx: 18518545192（加我请留下备注，无备注不会审核通过哈，望理解）
+email: lzx981128@163.com
+csdn: https://blog.csdn.net/m0_58352785?spm=1000.2115.3001.5343
+juejin: https://juejin.cn/user/1838822553551415
+motto: 不忘初心，方得始终！
+```
+##  关于本站
+Hexo 框架 + Butterfly 主题
+博客中的部分图片源于网络，侵删
+欢迎小伙伴们交换友链，具体说明可在 友链页 查看。
 
-<br>
+
+
+
+
+
+
 
 

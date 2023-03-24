@@ -25,7 +25,6 @@
   /* 代码框背景色 */
   --hl-bg: #282c34;
 }
-
 /* 滚动条样式 */
 ::-webkit-scrollbar {
   width: 8px;

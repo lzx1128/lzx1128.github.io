@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fomalhaut🥝
+title: Miraitowa🥑
 subtitle:
 description: 'Future is now 🍭🍭🍭'
-keywords: 'Java,MySQL,算法,代码,博客,Butterfly,Hexo,Fomalhaut🥝,Fomalhaut'
-author: Fomalhaut🥝
+keywords: '代码,博客,Butterfly,Hexo,Miraitowa🥑'
+author: Miraitowa🥑
 language: zh-CN
 timezone: ''
 
@@ -18,7 +18,7 @@ abbrlink:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.fomal.cc/
+url: https://www.lzx981128.top/
 permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
@@ -124,7 +124,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repository:  git@github.com:CMY0722/CMY0722-CMY0722.github.io.git
+    repository:  git@github.com:lzx1128/lzx1128.github.io.git
     branch: main
 #  - type: baidu_url_submitter
   # - type: git
@@ -274,19 +274,19 @@ magnet:
       display_name: 小Fの算法学习笔记
       icon: 🍡
     - name: 计算机基础
-      display_name: 小Fの计算机基础笔记
+      display_name: 小Mの计算机基础笔记
       icon: 🍼
     - name: 魔改教程
-      display_name: 小Fの博客魔改教程
+      display_name: 小Mの博客魔改教程
       icon: 🍉
-    - name: Java基础
-      display_name: 小FのJava基础笔记
+    - name: 前端笔记
+      display_name: 小Mの前端笔记
       icon: 🍟
-    - name: 数据库
-      display_name: 小Fの数据库笔记
+    - name: 工具分享
+      display_name: 小Mの工具分享
       icon: 🍨
     - name: 演示
-      display_name: 小Fの案例演示笔记
+      display_name: 小Mの案例演示笔记
       icon: 🍥
   color_setting:
     text_color: black # 文字默认颜色
@@ -299,3 +299,39 @@ magnet:
     index: 0
   temple_html: '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet">${temple_html_item}</div></div>'
   plus_style: ""
+
+douban:
+  id: 228172215
+  builtin: true
+  book:
+    title: '腹有诗书气自华'
+    quote: 'One who is filled with knowledge always behaves with elegance.'
+  movie:
+    title: '梦想与现实的碰撞'
+    quote: 'The collision between dream and reality.'
+  game:
+    title: '那些年，我玩过的游戏'
+    quote: '还记得你曾经的游戏角色吗'
+  timeout: 10000
+bangumi:
+  enable: true
+  vmid: 321638084
+  title: '生命不息，追番不止。'
+  quote: 'Where there is life, there is life.'
+  show: 1
+  loading: '/img/bangumi-loading.gif'
+  lazyload: false
+  srcValue: __ image__'
+# 统计图表，支持发布文章统计、发布日历、Top标签统计、分类统计、分类雷达。
+# see https://www.npmjs.com/package/hexo-butterfly-charts
+charts:
+  enable: true # 是否启用功能
+  postsChart:
+    title: 文章发布统计 # 设置文章发布统计的标题，默认为空
+    interval: 1 # 横坐标间隔
+  tagsChart:
+    title: Top 10 标签统计 # 设置标签统计的标题，默认为空
+    interval: 1 # 横坐标间隔
+  postsCalendar_Title: #文章发布日历 # 设置发布日历的标题，默认为空
+  categoriesChart_Title: # 设置分类统计的标题，默认为空
+#  categoriesRadar_Title: # 设置分类雷达的标题，默认为空

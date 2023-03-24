@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Fomalhaut🥝")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Miraitowa🥑")[0];
 }
 
 function scrollToTop() {
@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'ZLFBZ-3WOLD-AF54U-PSRQK-TEXKT-HZFLS',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -98,7 +98,6 @@ function getDistance(e1, n1, e2, n2) {
 }
 
 function showWelcome() {
-
   let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
@@ -287,7 +286,7 @@ function showWelcome() {
     document.getElementById("welcome-info").innerHTML =
       `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里，当前的IP地址为： <span style="color:var(--theme-color)">${ip}</span>， ${posdesc}</b>`;
   } catch (err) {
-    // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
+    console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
   }
 }
 window.onload = showWelcome;
@@ -303,7 +302,7 @@ document.addEventListener('pjax:complete', getWeibo);
 document.addEventListener('DOMContentLoaded', getWeibo);
 
 function getWeibo() {
-  fetch('').then(data => data.json()).then(data => {  // 这里要写上你的API!!!
+  fetch('https://wb.bore.vip/api').then(data => data.json()).then(data => {  // 这里要写上你的API!!!
     let html = '<style>.weibo-new{background:#ff3852}.weibo-hot{background:#ff9406}.weibo-jyzy{background:#ffc000}.weibo-recommend{background:#00b7ee}.weibo-adrecommend{background:#febd22}.weibo-friend{background:#8fc21e}.weibo-boom{background:#bd0000}.weibo-topic{background:#ff6f49}.weibo-topic-ad{background:#4dadff}.weibo-boil{background:#f86400}#weibo-container{overflow-y:auto;-ms-overflow-style:none;scrollbar-width:none}#weibo-container::-webkit-scrollbar{display:none}.weibo-list-item{display:flex;flex-direction:row;justify-content:space-between;flex-wrap:nowrap}.weibo-title{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-right:auto}.weibo-num{float:right}.weibo-hotness{display:inline-block;padding:0 6px;transform:scale(.8) translateX(-3px);color:#fff;border-radius:8px}</style>'
     html += '<div class="weibo-list">'
     let hotness = {
@@ -789,6 +788,7 @@ if (document.body.clientWidth > 992) {
 /* 小猫咪 end */
 
 //----------------------------------------------------------------
+/* 文章统计*/
 
 /* 右键菜单 start */
 function setMask() {
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
+    `欢迎来到Miraitowa🥑の小家!`,
     `Future is now 🍭🍭🍭`,
     `
         
@@ -1155,7 +1155,6 @@ createtime1();
 
 function createtime2() {
   var ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为「大聪明」`, `Photo captured: `, ` 🤪 `];
-
   setTimeout(
     console.log.bind(
       console,
@@ -1172,7 +1171,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by Miraitowa🥑s%c 你正在访问Miraitowa🥑の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1281,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| Miraitowa🥑") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('Miraitowa🥑的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -1337,18 +1336,18 @@ document.addEventListener('visibilitychange', function () {
 //----------------------------------------------------------------
 
 /* 搜索框修复 start */
-searchSize();
-window.addEventListener('resize', searchSize)
-// 搜索窗口自适应
-function searchSize() {
-  // 只需要适应手机端
-  if (document.body.clientWidth > 768) return
-  let div = document.querySelector('#algolia-hits')
-  // 监听插入，如果有插入则根据可视高度动态设置最大高度
-  div.addEventListener('DOMNodeInserted', () => {
-    div.children[0].style.maxHeight = (document.documentElement.clientHeight - 210) + 'px'
-  })
-}
+// searchSize();
+// window.addEventListener('resize', searchSize)
+// // 搜索窗口自适应
+// function searchSize() {
+//   // 只需要适应手机端
+//   if (document.body.clientWidth > 768) return
+//   let div = document.querySelector('#algolia-hits')
+//   // 监听插入，如果有插入则根据可视高度动态设置最大高度
+//   div.addEventListener('DOMNodeInserted', () => {
+//     div.children[0].style.maxHeight = (document.documentElement.clientHeight - 210) + 'px'
+//   })
+// }
 /* 搜索框修复 ennd */
 
 //----------------------------------------------------------------
@@ -3190,10 +3189,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://s1.vika.cn/space/2023/03/10/da4564fb0dcd4710a51db3fbc7c08834);
+    --darkmode-bg:url(https://s1.vika.cn/space/2023/03/10/176ebf1e9ed34636afd4f9545e453741);
+    --mobileday-bg: url(https://s1.vika.cn/space/2023/03/10/9add40cadb2a46409ce85744924ddc60);
+    --mobilenight-bg: url(https://s1.vika.cn/space/2023/03/10/3ca608c51c8444b6a9941450bcb2f034);
   }`;
 }
 // 切换背景主函数
@@ -3482,7 +3481,8 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 {% folding cyan, 查看适配手机的背景 %}
 <div class="bgbox">
-<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(e)')"></a>
+<a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://s1.vika.cn/space/2023/03/10/9add40cadb2a46409ce85744924ddc60)" class="pimgbox" onclick="changeBg('url(e)')"></a>
 
 </div>
 {% endfolding %}

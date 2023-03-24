@@ -8,23 +8,23 @@ type: "link"
 {% tabs link %}
 <!-- tab 🙋 butterfly-💭candy -->
 ```yml
-    - name: Fomalhaut🥝
-      link: https://www.fomal.cc/
-      avatar: https://www.fomal.cc/assets/avatar.webp
+    - name: Miraitowa🥑
+      link: https://www.lzx981128.top/
+      avatar: https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101426483.webp
       descr: Future is now 🍭🍭🍭
-      siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
+      siteshot: https://tuchuang.voooe.cn/images/2023/03/06/link.png
 ```
 <!-- endtab -->
 
 <!-- tab 🥗Volantis -->
 ```JSON
 {
-  "title": "Fomalhaut🥝",
-  "screenshot": "https://source.fomal.cc/siteshot/www.fomal.cn.jpg",
-  "url": "https://www.fomal.cc/",
-  "avatar": "https://www.fomal.cc/assets/avatar.webp",
+  "title": "Miraitowa🥑",
+  "screenshot": "hhttps://tuchuang.voooe.cn/images/2023/03/06/link.png",
+  "url": "https://www.lzx981128.top/",
+  "avatar": "https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101426483.webp",
   "description": "Future is now 🍭🍭🍭",
-  "keywords": "Fomalhaut🥝"
+  "keywords": "Miraitowa🥑"
 }
 ```
 <!-- endtab -->
@@ -33,12 +33,12 @@ type: "link"
 
 | 名称       | 数值                                                         |
 | ---------- | ------------------------------------------------------------ |
-| 站点名称   | Fomalhaut🥝                                                   |
-| 站点截图   | https://source.fomal.cc/siteshot/www.fomal.cn.jpg |
-| 站点链接   | https://www.fomal.cc/                                        |
-| 站长头像   | https://www.fomal.cc/assets/avatar.webp                         |
+| 站点名称   | Miraitowa🥑                                                   |
+| 站点截图   | https://tuchuang.voooe.cn/images/2023/03/06/link.png|
+| 站点链接   | https://www.lzx981128.top/                                       |
+| 站长头像   | https://nkt-blog-1315787778.cos.ap-nanjing.myqcloud.com/blog/article/202212101426483.webp                       |
 | 站点描述   | Future is now🍭🍭🍭                         |
-| 站点关键词 | Fomalhaut🥝,个人博客,代码                                     |
+| 站点关键词 | Miraitowa🥑,个人博客,代码                                     |
 
 <!-- endtab -->
 {% endtabs %}
