@@ -28,7 +28,7 @@ menu:
     旧时光: /site/time/ || icon-xianxingshalou || faa-tada
   个人 || icon-maoliang || faa-tada || hide:
 #    唠叨: /personal/bb/ || icon-qunliaotian || faa-tada
-    恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
+#    恋爱小屋: /personal/love/ || icon-love-sign || faa-tada
 #    旧时光: /site/time/ || icon-xianxingshalou || faa-tada
     关于: /personal/about/ || icon-paperplane || faa-tada
 #  网址导航: https://lzx981128.github.io/|| icon-zhifengche || faa-tada
@@ -65,7 +65,7 @@ social:
   QQ: http://wpa.qq.com/msgrd?v=3&uin=2735772872&site=qq&menu=yes || icon-QQ || faa-tada
 #  B站: https://space.bilibili.com/220757832 || icon-bilibili || faa-tada
   QQ邮箱: mailto:2735772872@qq.com || icon-youxiang || faa-tada
-  Github: https://github.com/Lzx981128|| icon-github || faa-tada
+  Github: https://github.com/Lzx1128|| icon-github || faa-tada
 #  力扣: https://leetcode.cn/u/Fomalhaut1998 || icon-leetcode || faa-tada
   # 微博: https://weibo.com/u/6473136435 || icon-weibo || faa-tada
   知乎: https://www.zhihu.com/people/he-chu-fan-hua-sheng-ge-luo-44 || icon-shejiaotubiao-10 || faa-tada
@@ -713,7 +713,7 @@ aside:
       enable: true
       icon: # fab fa-github
       text: 前往小窝
-      link: https://github.com/Lzx981128
+      link: https://github.com/Lzx1128
   card_announcement:
     enable: true
     content: Welcome to my blog！

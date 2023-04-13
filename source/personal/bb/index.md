@@ -75,7 +75,7 @@ comments: false
   font-size: 12px;
   text-shadow: #d9d9d9 0 0 1px, #fffffb 0 0 1px, #fffffb 0 0 2px;
   margin-left: 10px;
-}
+}z
 
 #bibi .card-content {
   padding: 10px 0;
